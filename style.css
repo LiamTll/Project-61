@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: #ccffe8;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #FEBBDO;
+    font-size: 20px;
+    color: #58427a;
+    font-family: 'Ruslan Display', cursive;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 50px
+}
+
+p {
+    color: #72579e;
+    font-family: cursive;
+}
+
+li {
+    display: inline;
+    color: black;
+}
+
+#picture {
+    height: 300px;
+    border-radius: 0%;
+    width: 250px;
+}
+
+h2 {
+    font-family: sans-serif;
+
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
+.menu {
+    position: fixed;
+    background:#ccffe8;
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
+    z-index: 10;
+    margin-left: 500px;
+        
+}
+
+li {
+   display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 15px;
+    float: left;
+}
+li:hover{
+    font-size:20px;
+    text-decoration: inherit;
+}
+a{
+    text-decoration: none;
+    color: #ff0004;
+    text-shadow: 1px 1px gainsboro;
